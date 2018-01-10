@@ -1,0 +1,45 @@
+{
+  "name": "btcnano-explorers",
+  "version": "0.1.0",
+  "description": "Module to query blockchain apis for Btcnano.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "coverage": "gulp coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitcoinnano/btcnano-explorers.git"
+  },
+  "keywords": [
+    "btcnano",
+    "bitcoin",
+    "bitcore",
+    "insight"
+  ],
+  "author": "Jack chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bitcoinnano/btcnano-explorers/issues"
+  },
+  "browser": {
+    "request": "browser-request"
+  },
+  "homepage": "https://github.com/bitcoinnano/btcnano-explorers",
+  "devDependencies": {
+    "btcnano-build": "git://github.com/bitcoinnano/btcnano-build.git",
+    "brfs": "^1.2.0",
+    "browserify": "^8.1.1",
+    "chai": "^2.0.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "dependencies": {
+    "btcnano-lib": "^0.1.0",
+    "browser-request": "^0.3.3",
+    "request": "^2.51.0"
+  }
+}

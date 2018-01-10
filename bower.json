@@ -1,0 +1,31 @@
+{
+  "name": "btcnano-explorers",
+  "main": "/btcnano-explorers.min.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/bitcoinnano/btcnano-explorers",
+  "authors": [
+    "Jack chen"
+  ],
+  "description": "Module to query blockchain apis for Btcnano.",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "btcnano",
+    "bitcoin",
+    "bitcore",
+    "btn",
+    "satoshi",
+    "insight"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "index.js",
+    "gulpfile.js",
+    "README.md",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
